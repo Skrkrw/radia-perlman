@@ -1,35 +1,55 @@
-<img src="https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png" style="margin: 0;">
+# Women's Day - Hackathon 2020 - Radia Perlman's Quiz # 
 
-Welcome Jose Enciso,
+This is a Website for kids with a funny Quiz to check their skills to be a future computer scientific.
+It is inspired on Radia Perlman who is one of the main female figures on computer science.
+Website consist on a Quiz with different cards (images) to choose the correct one and get a final score.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project.
+## Demo ##
+Link to live demo: https://github.com/Skrkrw/hackaton-2020
 
-## Gitpod Reminders
+## UX Process Design: ##
+Website with only one page where we wrote an introduction to Radia Perlman who inspired us to develop this Quiz. 
+The pourpose of this game is to iniciate and let kids have a first contact with computer science world.
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+## Technology used ##
+We developed this Quiz website with HTML5 and CSS3 for the design and we have implemented jQuery in order to develop 
+the functions who allow us to play with different Cards to choose the correct card.
 
-`python3 -m http.server`
+### Features ###
+- Start button, once cliked, two set of Cards will appear. 
+- Clicking on one of the cards, we will receive a message with the result: "Right" or "Try again".
+- If the answer is Rigth: it will open a new set of cards...and so on until the last set of Cards, 5 in total. 
+- Once the quiz is finished, user will receive an score. 
+- And a message will apperar to inspire kids to continue the computer science path in their future.
+## Testing ##
+- Does the cards appear when cliked the start button?
+- After click on one of the cards, do the cards alert a message with the correct answer?
+- Once you receive the messagge (Rigth or Try again), is the set of cards hide and a new one appear?
+- Do the user receive a score at the end of the Quiz?
 
-A blue button should appear to click: *Expose*,
+## Deplyment ##
+This project is hosted using Github pages, directly from the master branch. 
+Using Gitpod terminal to add, commit and push my work to Github Website. Different commits during the development process editing, updating or changing files. 
 
-Another blue button should appear to click: *Open Browser*.
+## Credits ##
+This Quiz has been developed by:
+- Skrkrw 
+- 7-Deuce
+- MegY
+- Romart
+- vishkid84
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
 
-A blue button should appear to click: *Expose*,
+## Content ##
 
-Another blue button should appear to click: *Open Browser*.
+This a single page website with an introduction to Radia Perlman biography and with welcome to the user.
+With a start button to start the game. 
+Once we have  
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the backend lessons.
 
-## Updates Since The Instructional Video
 
-We continually tweak and adjust this template to help give you the best experience. Here are the updates since the original video was made:
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
 
---------
 
-Happy coding!
+

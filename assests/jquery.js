@@ -1,17 +1,20 @@
 var score = 0;
 $(document).ready(function () {
 
-    $("#start").click(function () {
+    $("#start-button").click(function () {
         $(this).css("display", "none");
-        $("#box1").css("display", "block");
-
+        // $("#box1").css("display", "block");
+        $("#box1").removeClass("d-none")
     });
 
 
     $(".cardright1").click(function () {
         $(".card1").fadeOut(500);
-        $("#box2").css("display", "block");
+        $("#question1").fadeOut(500);
+        
+        $("#box2").removeClass("d-none")
         alert("Good job");
+        // $("#good1").removeClass("d-none").fadeOut(40000);
         score +=1;
     });
 
@@ -22,8 +25,10 @@ $(document).ready(function () {
 
     $(".cardleft2").click(function () {
         $(".card2").fadeOut(500);
-        $("#box3").css("display", "block");
+        $("#question2").fadeOut(500);
+        $("#box3").removeClass("d-none")
         alert("Good job");
+        $("#good2").removeClass("d-none").fadeOut(4000);
         score +=1;
     });
 
@@ -34,8 +39,10 @@ $(document).ready(function () {
 
     $(".cardleft3").click(function () {
         $(".card3").fadeOut(500);
-        $("#box4").css("display", "block");
+        $("#question3").fadeOut(500);
+        $("#box4").removeClass("d-none")
         alert("Good job");
+        $("#good3").removeClass("d-none").fadeOut(4000);
         score +=1;
     });
 
@@ -46,8 +53,10 @@ $(document).ready(function () {
 
     $(".cardright4").click(function () {
         $(".card4").fadeOut(500);
-        $("#box5").css("display", "block");
+        $("#question4").fadeOut(500);
+        $("#box5").removeClass("d-none")
         alert("Good job");
+        $("#good4").removeClass("d-none").fadeOut(4000);
         score +=1;
     });
 
@@ -58,8 +67,10 @@ $(document).ready(function () {
 
     $(".cardleft5").click(function () {
         $(".card5").fadeOut(500);
-        $("#box6").css("display", "block");
+        $("#question5").fadeOut(500);
+        $("#box6").removeClass("d-none")
         alert("Good job");
+        $("#good5").removeClass("d-none").fadeOut(4000);
         score +=1;
         console.alert(score);
     });
