@@ -28,6 +28,10 @@ h1{
     width: 400px!important;
 }
 
+#box2{
+display: none;
+}
+
 
 @media (min-width: 260px){
     
