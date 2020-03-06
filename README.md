@@ -5,19 +5,20 @@ It is inspired on Radia Perlman who is one of the main female figures on compute
 Website consist on a Quiz with different cards (images) to choose the correct one and get a final score.
 
 ## Demo ##
-Link to live demo: https://github.com/Skrkrw/hackaton-2020
+Link to live demo: https://skrkrw.github.io/radia-perlman/
 
 ## UX Process Design: ##
-Website with only one page where we wrote an introduction to Radia Perlman who inspired us to develop this Quiz. 
+Website with only one page where we wrote an introduction to Radia Perlman biopgraphy who inspired us to develop this Quiz. 
 The pourpose of this game is to iniciate and let kids have a first contact with computer science world.
 
 ## Technology used ##
 We developed this Quiz website with HTML5 and CSS3 for the design and we have implemented jQuery in order to develop 
 the functions who allow us to play with different Cards to choose the correct card.
+We have used Google Fonts to chose our type of font: Courgette and Bootstrap 4 has been used to add the Cards.
 
 ### Features ###
 - Start button, once cliked, two set of Cards will appear. 
-- Clicking on one of the cards, we will receive a message with the result: "Right" or "Try again".
+- Clicking one of the cards, we will receive a message with the result: "Right" or "Try again".
 - If the answer is Rigth: it will open a new set of cards...and so on until the last set of Cards, 5 in total. 
 - Once the quiz is finished, user will receive an score. 
 - And a message will apperar to inspire kids to continue the computer science path in their future.
@@ -33,6 +34,7 @@ Using Gitpod terminal to add, commit and push my work to Github Website. Differe
 
 ## Credits ##
 This Quiz has been developed by:
+### Team 9: ### 
 - Skrkrw 
 - 7-Deuce
 - MegY
@@ -41,10 +43,15 @@ This Quiz has been developed by:
 
 
 ## Content ##
-
 This a single page website with an introduction to Radia Perlman biography and with welcome to the user.
 With a start button to start the game. 
-Once we have  
+Once we have cliked the start button a set of cards will appear.
+Final Score will be displayed for the user. 
+No footer or navigation used in thsi project. 
+
+## Media ##
+Pictures download from Google images, with no commercoal purposes. 
+
 
 
 

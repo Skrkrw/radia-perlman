@@ -28,8 +28,8 @@ h1{
     width: 400px!important;
 }
 
-button{
-    margin-left: auto;
+.btn{
+    margin-left: auto!important;
 }
 
 
